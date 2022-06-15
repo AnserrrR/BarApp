@@ -67,7 +67,7 @@ class Ui_MainWindow(object):
         self.toolBox.setObjectName(u"toolBox")
         self.page = QWidget()
         self.page.setObjectName(u"page")
-        self.page.setGeometry(QRect(0, 0, 1025, 290))
+        self.page.setGeometry(QRect(0, 0, 696, 290))
         self.gridLayout_8 = QGridLayout(self.page)
         self.gridLayout_8.setObjectName(u"gridLayout_8")
         self.groupBox_4 = QGroupBox(self.page)
@@ -179,7 +179,7 @@ class Ui_MainWindow(object):
         self.toolBox.addItem(self.page, u"\u0412\u0441\u0435 \u043f\u043e\u0441\u0435\u0442\u0438\u0442\u0435\u043b\u0438, \u0437\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u0432 \u0441\u0438\u0441\u0442\u0435\u043c\u0435")
         self.page_2 = QWidget()
         self.page_2.setObjectName(u"page_2")
-        self.page_2.setGeometry(QRect(0, 0, 1042, 191))
+        self.page_2.setGeometry(QRect(0, 0, 1025, 182))
         self.gridLayout_11 = QGridLayout(self.page_2)
         self.gridLayout_11.setObjectName(u"gridLayout_11")
         self.tableVTB = QTableWidget(self.page_2)
@@ -243,6 +243,11 @@ class Ui_MainWindow(object):
 
         self.gridLayout_4.addWidget(self.toolBox, 0, 1, 1, 1)
 
+        self.MessegeOrdNot = QLabel(self.tabVisitors)
+        self.MessegeOrdNot.setObjectName(u"MessegeOrdNot")
+
+        self.gridLayout_4.addWidget(self.MessegeOrdNot, 1, 1, 1, 1)
+
         self.tabVisOrd.addTab(self.tabVisitors, "")
         self.tabOrders = QWidget()
         self.tabOrders.setObjectName(u"tabOrders")
@@ -253,18 +258,18 @@ class Ui_MainWindow(object):
         self.scrollArea.setWidgetResizable(True)
         self.scrollAreaWidgetContents = QWidget()
         self.scrollAreaWidgetContents.setObjectName(u"scrollAreaWidgetContents")
-        self.scrollAreaWidgetContents.setGeometry(QRect(0, 0, 727, 249))
+        self.scrollAreaWidgetContents.setGeometry(QRect(0, 0, 87, 147))
         self.gridLayout_14 = QGridLayout(self.scrollAreaWidgetContents)
         self.gridLayout_14.setObjectName(u"gridLayout_14")
         self.toolBoxOrder = QToolBox(self.scrollAreaWidgetContents)
         self.toolBoxOrder.setObjectName(u"toolBoxOrder")
         self.page_3 = QWidget()
         self.page_3.setObjectName(u"page_3")
-        self.page_3.setGeometry(QRect(0, 0, 709, 171))
+        self.page_3.setGeometry(QRect(0, 0, 69, 69))
         self.toolBoxOrder.addItem(self.page_3, u"Page 1")
         self.page_4 = QWidget()
         self.page_4.setObjectName(u"page_4")
-        self.page_4.setGeometry(QRect(0, 0, 707, 153))
+        self.page_4.setGeometry(QRect(0, 0, 100, 30))
         self.toolBoxOrder.addItem(self.page_4, u"Page 2")
 
         self.gridLayout_14.addWidget(self.toolBoxOrder, 0, 1, 1, 1)
@@ -553,11 +558,6 @@ class Ui_MainWindow(object):
 
         self.gridLayout.addWidget(self.AllBars, 1, 0, 1, 1)
 
-        self.MessegeOrdNot = QLabel(self.centralwidget)
-        self.MessegeOrdNot.setObjectName(u"MessegeOrdNot")
-
-        self.gridLayout.addWidget(self.MessegeOrdNot, 3, 0, 1, 1)
-
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QMenuBar(MainWindow)
         self.menubar.setObjectName(u"menubar")
@@ -614,6 +614,7 @@ class Ui_MainWindow(object):
         self.checkEvent.setText(QCoreApplication.translate("MainWindow", u"\u041f\u0440\u0438\u0448\u0451\u043b \u043d\u0430 \u0441\u043e\u0431\u044b\u0442\u0438\u0435", None))
         self.ErrorTextVTB.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" color:#ff0000;\">\u0412 \u0443\u043a\u0430\u0437\u0430\u043d\u043d\u043e\u0435 \u0432\u0440\u0435\u043c\u044f \u043d\u0435\u0442 \u0441\u043e\u0431\u044b\u0442\u0438\u0439.</span></p></body></html>", None))
         self.toolBox.setItemText(self.toolBox.indexOf(self.page_2), QCoreApplication.translate("MainWindow", u"\u041f\u043e\u0441\u0435\u0449\u0435\u043d\u0438\u0435", None))
+        self.MessegeOrdNot.setText(QCoreApplication.translate("MainWindow", u"\u0417\u0430\u043a\u0430\u0437\u043e\u0432 \u043d\u0435\u0442", None))
         self.tabVisOrd.setTabText(self.tabVisOrd.indexOf(self.tabVisitors), QCoreApplication.translate("MainWindow", u"\u041f\u043e\u0441\u0435\u0442\u0438\u0442\u0435\u043b\u0438", None))
         self.toolBoxOrder.setItemText(self.toolBoxOrder.indexOf(self.page_3), QCoreApplication.translate("MainWindow", u"Page 1", None))
         self.toolBoxOrder.setItemText(self.toolBoxOrder.indexOf(self.page_4), QCoreApplication.translate("MainWindow", u"Page 2", None))
@@ -655,6 +656,5 @@ class Ui_MainWindow(object):
         ___qtablewidgetitem7.setText(QCoreApplication.translate("MainWindow", u"\u041d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u0431\u0430\u0440\u0430", None));
         ___qtablewidgetitem8 = self.tableBars.horizontalHeaderItem(1)
         ___qtablewidgetitem8.setText(QCoreApplication.translate("MainWindow", u"\u0410\u0434\u0440\u0435\u0441\u0441", None));
-        self.MessegeOrdNot.setText(QCoreApplication.translate("MainWindow", u"\u0417\u0430\u043a\u0430\u0437\u043e\u0432 \u043d\u0435\u0442", None))
     # retranslateUi
 

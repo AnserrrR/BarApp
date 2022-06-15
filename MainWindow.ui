@@ -80,7 +80,7 @@
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>1025</width>
+                <width>696</width>
                 <height>290</height>
                </rect>
               </property>
@@ -237,8 +237,8 @@
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>1042</width>
-                <height>191</height>
+                <width>1025</width>
+                <height>182</height>
                </rect>
               </property>
               <attribute name="label">
@@ -324,6 +324,13 @@
              </widget>
             </widget>
            </item>
+           <item row="1" column="1">
+            <widget class="QLabel" name="MessegeOrdNot">
+             <property name="text">
+              <string>Заказов нет</string>
+             </property>
+            </widget>
+           </item>
           </layout>
          </widget>
          <widget class="QWidget" name="tabOrders">
@@ -341,8 +348,8 @@
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>727</width>
-                <height>249</height>
+                <width>87</width>
+                <height>147</height>
                </rect>
               </property>
               <layout class="QGridLayout" name="gridLayout_14">
@@ -356,8 +363,8 @@
                    <rect>
                     <x>0</x>
                     <y>0</y>
-                    <width>709</width>
-                    <height>171</height>
+                    <width>69</width>
+                    <height>69</height>
                    </rect>
                   </property>
                   <attribute name="label">
@@ -369,8 +376,8 @@
                    <rect>
                     <x>0</x>
                     <y>0</y>
-                    <width>707</width>
-                    <height>153</height>
+                    <width>100</width>
+                    <height>30</height>
                    </rect>
                   </property>
                   <attribute name="label">
@@ -780,13 +787,6 @@
         </widget>
        </item>
       </layout>
-     </widget>
-    </item>
-    <item row="3" column="0">
-     <widget class="QLabel" name="MessegeOrdNot">
-      <property name="text">
-       <string>Заказов нет</string>
-      </property>
      </widget>
     </item>
    </layout>
